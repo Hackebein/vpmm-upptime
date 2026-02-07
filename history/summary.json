@@ -58,19 +58,19 @@
     "url": "https://staging.vpmm.dev",
     "icon": "https://icons.duckduckgo.com/ip3/staging.vpmm.dev.ico",
     "slug": "staging-vpmm-frontend",
-    "status": "up",
-    "uptime": "61.83%",
-    "uptimeDay": "61.83%",
-    "uptimeWeek": "61.83%",
-    "uptimeMonth": "61.83%",
-    "uptimeYear": "61.83%",
-    "time": 651,
-    "timeDay": 651,
-    "timeWeek": 651,
-    "timeMonth": 651,
-    "timeYear": 651,
+    "status": "down",
+    "uptime": "62.76%",
+    "uptimeDay": "62.76%",
+    "uptimeWeek": "62.76%",
+    "uptimeMonth": "62.76%",
+    "uptimeYear": "62.76%",
+    "time": 649,
+    "timeDay": 649,
+    "timeWeek": 649,
+    "timeMonth": 649,
+    "timeYear": 649,
     "dailyMinutesDown": {
-      "2026-02-07": 455
+      "2026-02-07": 447
     }
   },
   {

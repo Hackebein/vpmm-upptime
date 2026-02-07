@@ -1,7 +1,7 @@
 url: https://staging.vpmm.dev/index.json
-status: degraded
+status: down
 code: 503
-responseTime: 687
-lastUpdated: 2026-02-07T03:32:04.093Z
+responseTime: 666
+lastUpdated: 2026-02-07T03:41:02.758Z
 startTime: 2026-02-07T00:46:20.088Z
 generator: Upptime <https://github.com/upptime/upptime>

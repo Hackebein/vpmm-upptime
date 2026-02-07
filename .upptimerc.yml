@@ -49,8 +49,8 @@ status-website:
       href: https://staging.vpmm.dev
 
 workflowSchedule:
-  graphs: "1/5 * * * *"
-  responseTime: "0/5 * * * *"
+  graphs: "2/5 * * * *"
+  responseTime: "1/5 * * * *"
   staticSite: "0 1 * * *"
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"

@@ -1,7 +1,7 @@
 name: Delete staging issues
 on:
   issues:
-    types: [opened, labeled, edited, reopened]
+    types: [opened]
 
 jobs:
   delete:

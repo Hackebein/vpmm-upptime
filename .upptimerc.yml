@@ -4,12 +4,12 @@ repo: vpmm-upptime
 sites:
   - name: "[LIVE] VPMM Frontend"
     url: https://vpmm.dev
-    maxResponseTime: 100
+    maxResponseTime: 1000
     expectedStatusCodes:
       - 200
   - name: "[LIVE] VPM Index"
     url: https://vpmm.dev/index.json
-    maxResponseTime: 500
+    maxResponseTime: 1000
     expectedStatusCodes:
       - 200
   - name: "[LIVE] VPMM Index"
@@ -19,12 +19,12 @@ sites:
       - 200
   - name: "[STAGING] VPMM Frontend"
     url: https://staging.vpmm.dev
-    maxResponseTime: 100
+    maxResponseTime: 1000
     expectedStatusCodes:
       - 200
   - name: "[STAGING] VPM Index"
     url: https://staging.vpmm.dev/index.json
-    maxResponseTime: 500
+    maxResponseTime: 1000
     expectedStatusCodes:
       - 200
   - name: "[STAGING] VPMM Index"

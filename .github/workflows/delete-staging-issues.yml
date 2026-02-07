@@ -24,8 +24,15 @@ jobs:
               return;
             }
 
-            await github.request("DELETE /repos/{owner}/{repo}/issues/{issue_number}", {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue.number,
-            });
+            if (!issue.node_id) {
+              throw new Error("Missing issue.node_id in webhook payload");
+            }
+
+            await github.graphql(
+              `mutation($issueId: ID!) {
+                deleteIssue(input: { issueId: $issueId }) {
+                  clientMutationId
+                }
+              }`,
+              { issueId: issue.node_id }
+            );

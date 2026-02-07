@@ -1,7 +1,7 @@
 url: https://staging.vpmm.dev
-status: down
-code: 503
-responseTime: 790
-lastUpdated: 2026-02-07T11:47:42.864Z
+status: up
+code: 200
+responseTime: 603
+lastUpdated: 2026-02-07T11:56:50.842Z
 startTime: 2026-02-07T00:46:18.509Z
 generator: Upptime <https://github.com/upptime/upptime>
